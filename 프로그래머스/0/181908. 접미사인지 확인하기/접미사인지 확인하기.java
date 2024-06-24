@@ -9,5 +9,14 @@ class Solution {
         }else return answer;
         if(answer1.equals(is_suffix)) answer = 1;
         return answer;
+        // int answer = 0;
+        // if(my_string.length() < is_suffix.length()) return answer;
+
+//         StringBuilder sb = new StringBuilder(my_string);
+//         sb.reverse();
+//         String substring = sb.substring(0,is_suffix.length());
+        
+//         if(substring.equals(is_suffix)) answer = 1;
+//         return answer;
     }
 }
