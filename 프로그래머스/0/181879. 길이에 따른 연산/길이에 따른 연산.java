@@ -6,7 +6,7 @@ class Solution {
                 answer += i;
             }
         } else {
-            answer = 1;
+            answer++;
             for(int i : num_list){
                 answer *= i;
             }
