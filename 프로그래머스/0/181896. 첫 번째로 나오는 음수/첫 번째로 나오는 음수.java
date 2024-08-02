@@ -3,8 +3,9 @@ class Solution {
         int answer = -1;
         for(int i = 0; i < num_list.length; i++){
             if(num_list[i] < 0){
-                answer = i;
-                break;
+                // answer = i;
+                // break;
+                return i;
             }
         }
         return answer;
