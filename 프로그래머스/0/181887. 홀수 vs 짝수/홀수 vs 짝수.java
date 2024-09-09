@@ -14,5 +14,9 @@ class Solution {
         
         if(evenSum > oddSum) return evenSum;
         return oddSum;
+        
+        //int answer = 0;
+        //answer = oddSum > evenSum? oddSum : evenSum;
+        //return answer;
     }
 }
