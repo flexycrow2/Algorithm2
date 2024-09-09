@@ -1,7 +1,5 @@
 class Solution {
     public int solution(int[] array) {
-        int answer = 0;
-        
         //홀수 odd, 짝수 even        
         int oddSum = 0;
         int evenSum = 0;
